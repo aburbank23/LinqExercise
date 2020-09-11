@@ -11,6 +11,9 @@ namespace LinqExercise
 
         static void Main(string[] args)
         {
+
+
+
             /*
              * 
              * Complete every task using Method syntax.
@@ -31,6 +34,8 @@ namespace LinqExercise
 
             var sumOfNumbers = numbers.Sum();
             var avgOfNumbers = numbers.Average();
+            Console.WriteLine(sumOfNumbers);
+            Console.WriteLine(avgOfNumbers);
 
 
             //-----------------------------------------------------------------------------
@@ -95,7 +100,7 @@ namespace LinqExercise
             //-----------------------------------------------------------------------------
 
 
-            //Change the value at index 4 to your age, then print the numbers in decsending order
+            //Change the value at index 4 to your age, then print the numbers in descending order
             numbers[4] = 26;
 
             foreach (var item in numbers.OrderByDescending(num => num)) 
